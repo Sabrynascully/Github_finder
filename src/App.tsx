@@ -1,13 +1,9 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import "./App.css";
-
+import { Outlet } from "react-router-dom";
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="App">
-      <h1>oS</h1>
+      <h1>GitHub Finder</h1>
+      <Outlet />
     </div>
   );
 }
