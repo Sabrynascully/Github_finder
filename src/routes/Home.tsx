@@ -1,4 +1,10 @@
+import Search from "../components/Search";
+
 function Home() {
-  return <h1>Home</h1>;
+  return (
+    <div>
+      <Search />
+    </div>
+  );
 }
 export default Home;
